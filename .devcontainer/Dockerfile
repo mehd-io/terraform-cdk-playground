@@ -18,3 +18,6 @@ RUN terraform -v
 
 # Terraform cdk
 RUN npm install --global cdktf-cli
+
+# Pipenv required for template cdk
+RUN apt-get install -y pipenv
